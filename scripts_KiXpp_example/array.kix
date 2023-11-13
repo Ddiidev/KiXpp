@@ -1,0 +1,9 @@
+break on
+
+array({0,1,2,3,4})
+
+function array($args)
+    for $i=0 to ubound($args)
+        ? $args[$i]
+    next
+endfunction

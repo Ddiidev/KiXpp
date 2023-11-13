@@ -1,0 +1,235 @@
+{
+	"ast_type": "ast.File",
+	"path": "C:\\Users\\AndreLuiz\\Desktop\\teste.v",
+	"nr_lines": 4,
+	"nr_bytes": 55,
+	"mod": {
+		"ast_type": "Module",
+		"name": "main",
+		"attrs": [],
+		"is_skipped": true
+	},
+	"imports": [],
+	"auto_imports": [],
+	"imported_symbols": {},
+	"generic_fns": [],
+	"embedded_files": [],
+	"global_labels": [],
+	"is_test": false,
+	"stmts": [
+		{
+			"ast_type": "Module",
+			"name": "main",
+			"attrs": [],
+			"is_skipped": true
+		},
+		{
+			"ast_type": "FnDecl",
+			"name": "main.main",
+			"mod": "main",
+			"is_deprecated": false,
+			"is_pub": false,
+			"is_variadic": false,
+			"is_noreturn": false,
+			"is_manualfree": false,
+			"is_exported": false,
+			"is_unsafe": false,
+			"receiver": {
+				"ast_type": "StructField",
+				"name": "",
+				"typ": "void",
+				"anon_struct_decl": {
+					"ast_type": "StructDecl",
+					"name": "",
+					"is_pub": false,
+					"language": "enum:0(v)",
+					"is_union": false,
+					"fields": [],
+					"generic_types": [],
+					"attrs": [],
+					"embeds": []
+				},
+				"unaliased_typ": null,
+				"has_default_expr": false,
+				"default_expr_typ": null,
+				"default_expr": null,
+				"is_pub": false,
+				"is_mut": false,
+				"is_global": false,
+				"is_volatile": false,
+				"is_deprecated": false,
+				"attrs": [],
+				"i": 0
+			},
+			"is_method": false,
+			"rec_mut": false,
+			"language": "enum:0(v)",
+			"has_await": false,
+			"return_type": "void",
+			"params": [],
+			"generic_names": [],
+			"stmts": [
+				{
+					"ast_type": "AssignStmt",
+					"op": "token:36(:=)",
+					"left": [
+						{
+							"ast_type": "Ident",
+							"mod": "main",
+							"name": "x",
+							"language": "enum:0(v)",
+							"is_mut": false,
+							"comptime": false,
+							"tok_kind": "token:36(:=)",
+							"kind": "enum:0(unresolved)",
+							"info": {
+								"ast_type": "IdentVar",
+								"typ": null,
+								"is_mut": false,
+								"is_static": false,
+								"is_volatile": false,
+								"is_option": false,
+								"share": "enum:0(mut)"
+							},
+							"or_expr": {
+								"ast_type": "OrExpr",
+								"stmts": [],
+								"kind": "enum:0(absent)"
+							}
+						}
+					],
+					"left_types": [],
+					"right": [
+						{
+							"ast_type": "StringLiteral",
+							"val": "ola",
+							"is_raw": false,
+							"language": "enum:0(v)"
+						}
+					],
+					"right_types": [],
+					"is_static": false,
+					"is_volatile": false,
+					"is_simple": false,
+					"has_cross_var": false
+				},
+				{
+					"ast_type": "AssignStmt",
+					"op": "token:36(:=)",
+					"left": [
+						{
+							"ast_type": "Ident",
+							"mod": "main",
+							"name": "v",
+							"language": "enum:0(v)",
+							"is_mut": false,
+							"comptime": false,
+							"tok_kind": "token:36(:=)",
+							"kind": "enum:0(unresolved)",
+							"info": {
+								"ast_type": "IdentVar",
+								"typ": null,
+								"is_mut": false,
+								"is_static": false,
+								"is_volatile": false,
+								"is_option": false,
+								"share": "enum:0(mut)"
+							},
+							"or_expr": {
+								"ast_type": "OrExpr",
+								"stmts": [],
+								"kind": "enum:0(absent)"
+							}
+						}
+					],
+					"left_types": [],
+					"right": [
+						{
+							"ast_type": "IntegerLiteral",
+							"val": "123"
+						}
+					],
+					"right_types": [],
+					"is_static": false,
+					"is_volatile": false,
+					"is_simple": false,
+					"has_cross_var": false
+				},
+				{
+					"ast_type": "AssignStmt",
+					"op": "token:36(:=)",
+					"left": [
+						{
+							"ast_type": "Ident",
+							"mod": "main",
+							"name": "arr",
+							"language": "enum:0(v)",
+							"is_mut": false,
+							"comptime": false,
+							"tok_kind": "token:36(:=)",
+							"kind": "enum:0(unresolved)",
+							"info": {
+								"ast_type": "IdentVar",
+								"typ": null,
+								"is_mut": false,
+								"is_static": false,
+								"is_volatile": false,
+								"is_option": false,
+								"share": "enum:0(mut)"
+							},
+							"or_expr": {
+								"ast_type": "OrExpr",
+								"stmts": [],
+								"kind": "enum:0(absent)"
+							}
+						}
+					],
+					"left_types": [],
+					"right": [
+						{
+							"ast_type": "ArrayInit",
+							"typ": "void",
+							"elem_type": "void",
+							"exprs": [
+								{
+									"ast_type": "IntegerLiteral",
+									"val": "1"
+								},
+								{
+									"ast_type": "IntegerLiteral",
+									"val": "2"
+								},
+								{
+									"ast_type": "IntegerLiteral",
+									"val": "3"
+								}
+							],
+							"is_fixed": false,
+							"has_val": false,
+							"mod": "main",
+							"len_expr": {
+								"ast_type": "EmptyExpr"
+							},
+							"cap_expr": {
+								"ast_type": "EmptyExpr"
+							},
+							"init_expr": {
+								"ast_type": "EmptyExpr"
+							},
+							"has_len": false,
+							"has_cap": false,
+							"has_init": false,
+							"has_index": false,
+							"expr_types": []
+						}
+					],
+					"right_types": [],
+					"is_static": false,
+					"is_volatile": false,
+					"is_simple": false,
+					"has_cross_var": false
+				}
+			]
+		}
+	]
+}
